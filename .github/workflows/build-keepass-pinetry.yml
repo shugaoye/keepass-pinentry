@@ -2,7 +2,7 @@ name: dotnet build
 on:
   push:
     branches:
-      - master
+      - dev
     paths:
       - 'Keepass/**'
       - 'KeepassPinentry/**'
