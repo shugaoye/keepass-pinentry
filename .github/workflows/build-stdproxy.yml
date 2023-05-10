@@ -1,5 +1,8 @@
 name: go build
 on:
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
   push:
     branches:
       - master
